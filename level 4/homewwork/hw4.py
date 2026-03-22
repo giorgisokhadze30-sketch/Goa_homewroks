@@ -11,10 +11,10 @@
 #   result = number + text
 #   print(result)
  
-number = "5" 
-text = "apples"
-result = number  +  text
-print(result)
+# number = "5" 
+# text = "apples"
+# result = number  +  text
+# print(result)
 
 
 
@@ -26,8 +26,8 @@ print(result)
 #    name2 = naame + "4"
 
 
-name = "lika"
-name2 = name + 4
+# name = "lika"
+# name2 = name + "4"
 
 
 # 4. first_user = "Lika"

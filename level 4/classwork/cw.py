@@ -6,6 +6,7 @@
 user1 = "nika"
 user_2 = "lika"
 print(user_2)
+# აქ ვაკეთებთ debugging-ს
 
 
 
