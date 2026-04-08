@@ -11,5 +11,5 @@ num5 = int(input("Enter fifth number: "))
 
 
 average =num1 + num2 + num3 + num4 + num5
-final = average//15
+final = average//5
 print(final)

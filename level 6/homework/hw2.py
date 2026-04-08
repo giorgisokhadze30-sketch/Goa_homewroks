@@ -6,3 +6,5 @@
 print(type("Giorgi"))
 print(type(14))
 print(type(4.1))
+print(type("4.1"))
+print(type("15"))
