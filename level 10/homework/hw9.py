@@ -3,7 +3,12 @@
 #  გამოიტანოს "You have bought the drink" და გვერდზე მარაგში დარჩენილი წვენების რაოდენობა. როდესა მარაგი ამოიწურება 
 # - ტერმინალში და უბეჭდოს "Out of stock".
 
-num = 300
-while num <= 300:
-    print(num)
-    num -=2
+
+stock=300
+
+
+while stock > 0:
+    stock -=2
+    print("you have bought drink, remaining:, stock")
+
+    print("out of stock")
