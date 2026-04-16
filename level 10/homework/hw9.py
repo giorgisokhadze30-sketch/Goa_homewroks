@@ -9,6 +9,6 @@ stock=300
 
 while stock > 0:
     stock -=2
-    print("you have bought drink, remaining:, stock")
+    print(f"you have bought drink, remaining:, {stock}")
 
     print("out of stock")
