@@ -1,5 +1,5 @@
 # 3) მომხმარებელს შემოატანინეთ წინადადება და ტერმინალში გამოიტანეთ მისი სიგრძე.
 
-firs = input("Enter your word: ")
+first = input("Enter your word: ")
 
-print(len(firs))
+print(len(first))
