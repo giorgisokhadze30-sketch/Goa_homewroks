@@ -7,3 +7,17 @@
 #     • 50-69: - C
 
 #     • 0-49: - F
+
+
+def student_grade(grade):
+    if 90 <= grade <= 100:
+         print("A")
+    elif 70 <= grade <= 89:
+        print("B")
+    elif 50 <= grade  <= 69:
+        print("C")
+    else:
+        print("F")
+        
+        
+student_grade(73)
