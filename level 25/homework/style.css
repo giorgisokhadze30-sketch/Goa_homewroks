@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+
+
+
+nav{
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+h1{
+    text-align: center;
+}
+nav:hover{
+    color: blue;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+
+nav:active{
+    color:purple;
+    font-size: small;
+    
+}
+nav:visited{
+    color: yellow;
+    font-weight: default;
+}
+
+
+
+#im-1{
+    width: 600px;
+    text-align: center;
+}
+#im-2{
+    width: 600px;
+    text-align: center;
+   
+}
+
+#h1{
+    text-align: center;
+}
+
+.picture{
+    text-align: center;
+    font-family: "Satisfy";
+}
+
+
+#h3-3{
+    font-family: "Playwrite GB J", cursive;
+}
+#img-3{
+    width: 600 px;
+    text-align: center;
+}
