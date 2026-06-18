@@ -1,0 +1,31 @@
+.leaderboard {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard thead tr {
+    background-color: #009879;
+    color: white;
+}
+
+.leaderboard th, 
+.leaderboard td {
+    padding: 12px 15px;
+}
+
+.leaderboard tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.leaderboard tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.leaderboard tbody tr:nth-child(2) {
+    color: #009879;
+    font-weight: bold;
+}
