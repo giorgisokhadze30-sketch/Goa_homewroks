@@ -3,6 +3,16 @@
  ელემენტს შეუცვალეთ Font-ის სტილი. სასურველი შრიფტის სტილი დააიმპორტეთ Google fonts-იდან:
 https://fonts.google.com/ -->
 
+<!-- 5) შექმენით საიტი, სადაც დაამატებთ nav tag-ს. nav tag-ში ჩააშენეთ 3 ლინკი -> Home, About Us, Contact. ლინკებს მოაშორეთ default
+ ხაზგასმა და გაუწერეთ წითელი ფერი. გამოიყენეთ Pseudo-selector-ები იმისთვის, რომ:
+
+• ლინკზე მაუსის გადატარებისას მას მიანიჭეთ ლური ფერი, გაუზარდეთ Font-size და გაამუქეთ ტექსტი font-weight-ის გამოყენებით.
+
+• ლინკებმა დაკლიკებისას მიიღონ იისფერი ფერი და შემცირდნენ ზომაში.
+
+• ლინკებზე გადასვლის შემდეგ ისინი უნდა გახდნენ ყვითელი ფერის და ჰქონდეთ default font-weight მნიშვნელობა. -->
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +26,9 @@ https://fonts.google.com/ -->
     <header> 
         <h1>Mercedes-Benz</h1><br><br>
         <nav>
-            <a href="#h3-1"></a>
-            <a href="#h3-2"></a>
-            <a href=""></a>
+            <a id="a-1" href="#h3-1">home</a>
+            <a id="a-2" href="#h3-2">about Mercedes</a>
+            <a id="a-3" href="#p-1">Contact</a>
         </nav>
     </header>
 
@@ -27,7 +37,9 @@ https://fonts.google.com/ -->
          engineering excellence, and safety standards. Established in 1926 and headquartered in Stuttgart, Germany, the 
          company produces a comprehensive fleet ranging from everyday premium hatchbacks to ultra-luxury sedans, high-performance
           sports cars, and heavy commercial vehicles.</h3><br>
-          <img src="./images (6).jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <img id="img-4" src="./images (6).jpg" ><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+          <h2 style="text-align: center;">About Mercedes</h2><br><br>
 
 
 
@@ -40,7 +52,7 @@ https://fonts.google.com/ -->
              and GLB, the highly popular mid-size GLC and GLE, and the full-sized, three-row GLS.The G-Class: Affectionately known
               as the G-Wagon, this boxy, body-on-frame icon delivers extreme off-road capability paired with elite interior
                refinement.Coupés & Roadsters: Dynamic options like the sleek CLA four-door coupé, the elegant CLE, and the classic
-                SL Roadster cater to performance <br> 
+                SL Roadster cater to performance <br> <br><br>
           </h3>
           <div>
               <img id="img-1" src="./JDPA_2021 Mercedes-Benz S-Class Black At Speed.webp" alt="">
@@ -50,13 +62,15 @@ https://fonts.google.com/ -->
     </main>
     <footer>
         <hr>
-        <p>contact:+995151477</p><br>
-        <a href=""><button>more info</button></a>
+        <p >facebook:</p>
+        <a id="a-5" href="https://www.facebook.com/MercedesBenz/">click</a><br><br>
+        <p>instagram:</p>
+        <a id="a-7" href="https://www.instagram.com/mercedesbenz/">click</a>
     </footer>
 
 
 
 
     
-</body>
+</body> 
 </html>

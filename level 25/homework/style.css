@@ -1,9 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+
+
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+
+#a-1:hover{
+    color: blue;
+    font-size: large;
+    font-weight: 300;
+}
+
+#a-2:hover{
+    color: blue;
+    font-size: large;
+    font-weight: 300;
+}
+
+#a-3:hover{
+    color: blue;
+    font-size: large;
+    font-weight: 300;
+}
+
+
+#a-1:active{
+    color: purple;
+    font-size: medium;
+    
+}
+#a-2:active{
+    color: purple;
+    font-size: medium;
+    
+}
+
+#a-3:active{
+    color: purple;
+    font-size: medium;
+    
+}
+
+#a-1:visited{
+    color: yellow;
+    font-weight: lighter;
+    
+}
+
+
+#a-2:visited{
+    color: yellow;
+    font-weight: lighter;
+    
+}
+
+#a-3:visited{
+    color: yellow;
+    font-weight: lighter;
+    
+}
+
+
+#h3-1{
+    text-align: center;
+    font-family: "Playwrite GB J", cursive;;
+
+}
+
+
+#h3-2{
+    text-align: center;
+    font-family: "Playwrite GB J", cursive;;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 div{
-    width: 900px;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 15px;
+    margin: 0 auto;
     
 }
 
@@ -13,6 +143,7 @@ div{
 }
 #img-2{
     width: 300px;
+    height: 200px;
 }
 
 
@@ -20,3 +151,39 @@ div{
     width: 300px;
     height: 200px;
 }
+
+#img-4{
+    max-width: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#a-5:hover{
+    color: blue;
+    font-weight: 400;
+    font-size: larger;
+}
+
+#a-5{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+
+#a-7:hover{
+    color: blue;
+    font-weight: 400;
+    font-size: larger;
+}
+
+#a-7{
+    color: black;
+    text-decoration: none;
+    
+}
+
