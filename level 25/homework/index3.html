@@ -1,78 +1,62 @@
-<!-- <4) ააგეთ საიტი საყვარელი მანქანის ბრენდის შესახებ. სურვილისამებრ იყოს Single-page / Multi-page. საიტზე დამატებულ ყველა ტექსტურ
+<!-- <4) ააგეთ საიტი საყვარელი მანქანის ბრენდის შესახებ. სურვილისამებრ იყოს Single-page / Multi-page. საიტზე დამატებულ ყველა
+  ტექსტურ
  ელემენტს შეუცვალეთ Font-ის სტილი. სასურველი შრიფტის სტილი დააიმპორტეთ Google fonts-იდან:
-https://fonts.google.com/
-
-5) შექმენით საიტი, სადაც დაამატებთ nav tag-ს. nav tag-ში ჩააშენეთ 3 ლინკი -> Home, About Us, Contact. ლინკებს მოაშორეთ default
- ხაზგასმა და გაუწერეთ წითელი ფერი. გამოიყენეთ Pseudo-selector-ები იმისთვის, რომ:
-
-• ლინკზე მაუსის გადატარებისას მას მიანიჭეთ ლური ფერი, გაუზარდეთ Font-size და გაამუქეთ ტექსტი font-weight-ის გამოყენებით.
-
-• ლინკებმა დაკლიკებისას მიიღონ იისფერი ფერი და შემცირდნენ ზომაში.
-
-• ლინკებზე გადასვლის შემდეგ ისინი უნდა გახდნენ ყვითელი ფერის და ჰქონდეთ default font-weight მნიშვნელობა.
+https://fonts.google.com/ -->
 
 
-6) შექმენით საიტის Footer. დაამატეთ Footer-ისთვის დამახასიათებელი ტექსტი. გამოიყენეთ Pseudo-selector-ები და ტექსტის
- დეკორაციის კოთვნილება, რომ Footer-ში დამატებულ ლინკებზე მაუსის გადატარებისას ტექსტს ხაზი თეთრად გაესვას და ოდნავ გაიზარდოს
-  ზომაში. --> 
-
-
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-  </head>
-  <body>
-    <header>
-        <h1 >Mercedes-Benz</h1>
+</head>
+<body>
+    <header> 
+        <h1>Mercedes-Benz</h1><br><br>
         <nav>
-            <a href="#1">home/</a>
-            <a htre="#2">about us/</a>
-            <a  Contact>contact</a>
+            <a href="#h3-1"></a>
+            <a href="#h3-2"></a>
+            <a href=""></a>
         </nav>
     </header>
-    <main id="main">
-        <h3 id="h3-1">our cars</h3><br>
-        <img id="im-1" src="./Mercedes-AMG-G-63-6x6-2kk.jpg" alt="6x6 pic">
+
+    <main>
+        <h3 id="h3-1">Mercedes-Benz is a globally renowned German luxury automobile brand celebrated for its innovation, performance,
+         engineering excellence, and safety standards. Established in 1926 and headquartered in Stuttgart, Germany, the 
+         company produces a comprehensive fleet ranging from everyday premium hatchbacks to ultra-luxury sedans, high-performance
+          sports cars, and heavy commercial vehicles.</h3><br>
+          <img src="./images (6).jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
-
-        <h3 id="1">atchbacks & Saloons: The A-Class serves as the entry point, while the sleek CLA, 
-            core C-Class, and executive E-Class dominate the saloon segment.SUVs & Crossovers: 
-            High-riding options include the compact GLA and GLB, the mid-sized GLC, and the large
-             GLE or GLS.Coupes & Convertibles: Two-door performance and styling are fronted by the CLE
-              and the high-end Mercedes-AMG GT.All-Electric (EQ Range): Mercedes-Benz has sub-branded its
-               electric lineup with models like the EQA (starting from €57,945), EQB (from €59,950), and flagship
-                EQE SUV or EQS SUV.Off-Road Icons: The ultra-premium G-Class is available in both traditional internal
-                 combustion and Electric G-Class variants.</h3><br><br>
-        
-
-
-
-        <img id="im-2" src="./mercedes-benz-cls-rear_0.jpg" alt="cls pic"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-       
-
-        
-
-
-        <h3 class="picture" id="2">Mercedes-Benz is a premier German luxury and high-performance automobile manufacturer headquartered in Stuttgart, 
-            Germany. Regarded as the creator of the world's first internal combustion automobile, the brand has spent over a 
-            century establishing industry benchmarks for automotive engineering, passenger safety, and luxury comfort. The company
-             was officially formed in 1926 through the merger of businesses owned by Karl Benz and Gottlieb Daimler. However, its 
-             roots trace back to 1886 when Karl Benz patented the Benz Patent-Motorwagen, an event widely recognized as the birth 
-             of the modern automobile. The brand name itself honors Karl Benz, while "Mercedes" was inspired by the daughter of 
-             Emil Jellinek, an influential early distributor who raced Daimler cars. This rich heritage is visually anchored by 
-             the iconic three-pointed star logo, which historically symbolized the founders' ambition to dominate motorized 
-             transport on land, sea, and air.</h3><br><br><br>
-             <img id="img-3" src="./images.png" alt="mercedes benz logo">
+          <h3 id="h3-2">Mercedes-Benz organizes its passenger vehicles into intuitive alphabetical classes that signify their segment
+             and body style.
+            Saloons & Hatchbacks: The compact A-Class serves as the brand's entry-level model, scaling up to the executive 
+            C-Class, the mid-size luxury E-Class, and the flagship S-Class—which represents the absolute pinnacle of automotive
+             luxury and cutting-edge technology.SUVs: Broadly designated by the "GL" prefix, the lineup features the compact GLA 
+             and GLB, the highly popular mid-size GLC and GLE, and the full-sized, three-row GLS.The G-Class: Affectionately known
+              as the G-Wagon, this boxy, body-on-frame icon delivers extreme off-road capability paired with elite interior
+               refinement.Coupés & Roadsters: Dynamic options like the sleek CLA four-door coupé, the elegant CLE, and the classic
+                SL Roadster cater to performance <br> 
+          </h3>
+          <div>
+              <img id="img-1" src="./JDPA_2021 Mercedes-Benz S-Class Black At Speed.webp" alt="">
+              <img id="img-2" src="./Mercedes-AMG-G-63-6x6-2kk.jpg" alt="">
+              <img id="img-3" src="./mercedes-benz-cls-rear_0.jpg" alt="">
+          </div><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+    </main>
+    <footer>
+        <hr>
+        <p>contact:+995151477</p><br>
+        <a href=""><button>more info</button></a>
+    </footer>
 
 
-    </main>.
+
+
     
-  </body>
-  </html>
+</body>
+</html>
