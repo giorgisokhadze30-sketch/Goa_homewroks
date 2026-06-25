@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="./style7.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Event Registration</h2>
+        <p class="subtitle">Register with us to get more details.</p>
+        
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <div class="name-row">
+                    <div class="input-with-icon">
+                        <span class="icon">👤</span>
+                        <input type="text" required>
+                        <span class="sub-label">First</span>
+                    </div>
+                    <div class="input-with-icon">
+                        <input type="text" required>
+                        <span class="sub-label">Last</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <div class="input-with-icon">
+                    <span class="icon">✉️</span>
+                    <input type="email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Phone</label>
+                <div class="input-with-icon">
+                    <span class="icon">📱</span>
+                    <input type="tel" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Topic</label>
+                <div class="select-wrapper">
+                    <select required>
+                        <option value="" disabled selected hidden></option>
+                        <option value="topic1">Topic 1</option>
+                        <option value="topic2">Topic 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Preferred Slot</label>
+                <div class="select-wrapper">
+                    <select required>
+                        <option value="" disabled selected hidden></option>
+                        <option value="slot1">Morning</option>
+                        <option value="slot2">Evening</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" class="submit-btn">Sign me up</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

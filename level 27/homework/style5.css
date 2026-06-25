@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+input{
+    background-color: aquamarine;
+}
+
+label{
+    font-size: 18px;
+    color: red;
+}
+
+form{
+    background-color: aqua;
+    width: fit-content;
+    text-align: center;
+}
+
+
+input:active{
+    text-shadow: 5px 5px 5px black ;
+}

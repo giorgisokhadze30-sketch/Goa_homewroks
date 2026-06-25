@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle at center, #241442 0%, #0f0720 100%);
+    padding: 20px;
+}
+
+.registration-container {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 24px;
+    padding: 40px;
+    width: 100%;
+    max-width: 550px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    color: #b3b0c2;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 28px;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.name-row {
+    display: flex;
+    gap: 25px;
+}
+
+.name-row .input-with-icon {
+    flex: 1;
+}
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    color: #8a85a5;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 10px 0 10px 24px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+}
+
+.name-row .input-with-icon:last-child input {
+    padding-left: 0;
+}
+
+input:focus, select:focus {
+    border-bottom-color: #ffffff;
+}
+
+.sub-label {
+    color: #8a85a5;
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    padding-left: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.select-wrapper::after {
+    content: "➔";
+    transform: rotate(90deg);
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    bottom: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: #d11a5b;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.submit-btn:hover {
+    background-color: #b8144f;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
