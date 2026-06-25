@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdd5ef;
+}
+
+.table-box {
+    background-color: white;
+    padding: 0;
+    border-radius: 15px;
+    width: 800px;
+}
+
+#my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    color: white;
+    font-weight: normal;
+}
+
+td {
+    color: #555555;
+}
+
+.header-row {
+    background-color: #6c7ae0;
+}
+
+.purple-row {
+    background-color: #f2f2fc;
+}
