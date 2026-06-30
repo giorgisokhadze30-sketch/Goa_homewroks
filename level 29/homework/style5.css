@@ -1,0 +1,14 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: black;
+    min-height: 500px;
+}
+
+.kid{
+    max-width: 50px;
+}
