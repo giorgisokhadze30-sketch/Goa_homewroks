@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.block{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    transition: 3s;
+    transition-delay: 1s;
+}
+
+.block:active{
+    background-color: red;
+    border-radius: ;
+}

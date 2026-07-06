@@ -1,0 +1,20 @@
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#kid{
+    transition: 2s;
+    width: 200px;
+    height:200px;
+
+}
+
+
+#kid:active{
+    transform: translate(0,200px);
+    border-radius: 50%;
+    border: 2px solid red;
+}
