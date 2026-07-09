@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.block{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+
+.block:active{
+    transform: rotate(50deg);
+}
