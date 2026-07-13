@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+#box{
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: loading 3s infinite linear;
+    border-top: 5px solid white;
+
+}
+
+@keyframes loading{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
