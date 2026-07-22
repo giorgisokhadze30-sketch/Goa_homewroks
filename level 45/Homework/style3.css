@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    gap: 15px;
+}
+
+#box-1{
+    background-color: #FF4D6D;
+    width: 50px;
+    height: 50px;
+    animation: box 1s infinite alternate ease-in-out;
+    border-radius: 50%;
+}
+
+#box-2{
+    background-color: #E0F7FA;
+    width: 50px;
+    height: 50px;
+    animation: box 1s infinite alternate ease-in-out;
+    border-radius: 50%;
+    animation-delay: 0.2s;
+}
+
+#box-3{
+    background-color: #FFFFE0;
+    width: 50px;
+    height: 50px;
+    animation: box  1s infinite alternate ease-in-out;
+    border-radius: 50%;
+    animation-delay: 0.4s;
+
+}
+
+@keyframes box{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+}
