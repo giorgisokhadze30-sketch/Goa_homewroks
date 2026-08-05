@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+    text-align: center;
+}
+
+a:hover{
+    font-size: 20px;
+    color: red;
+
+}
