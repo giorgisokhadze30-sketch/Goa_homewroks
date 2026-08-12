@@ -39,35 +39,69 @@ header{
     gap: 18px;
 }
 
-#home-icon{
-    width: 24px;
-    height: 24px;
-    margin-right: 4px;
-    margin-top: 4px;
-}
-
-#movie-icon{
-    width: 24px;
-    height: 24px ;
-    margin-right: 4px;
-}
-
-#ticket-icon{
-     width: 24px;
-    height: 24px ;
-    margin-right: 4px;
-}
-
 .nav{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #a0a0b0;
     font-size: 16px;
     transition: 0.3s;
 }
 
+.nav img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
 .nav:hover{
     color: white;
     font-size: 20px;
+}
+
+
+#dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+
+#options a{
+    color: #a0a0b0;
+    text-decoration: none;
+    padding: 4px;
+}
+#options{
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 35px;
+}
+
+#dropdown:hover #options{
+    display: flex;
+}
+
+#option-1{
+    transition: 1s;
+    font-size: 14px;
+}
+
+#option-2{
+    transition: 1s;
+    font-size: 14px;
+}
+
+
+#option-1:hover{
+    font-size: 20px;
+    color: white;
+}
+
+#option-2:hover{
+    font-size: 20px;
+    color: white;
 }
 
 #search-bar{
@@ -197,7 +231,8 @@ h1{
     margin-bottom: 20px;
     max-width: 620px;
     font-size: 16px;
-    color: rgb(27, 1, 80);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -217,4 +252,77 @@ h1{
     color: white;
     border-radius: 30px;
     padding: 6px 14px;
+}
+
+#movies h1{
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+
+
+#poster-div{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#poster-div img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+#poster-div img:hover{
+    width: 220px;
+    height: 310px;
+}
+
+#poster-div2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    margin-left: -1900px;
+}
+
+#poster-div2 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+#poster-div2 img:hover{
+    width: 220px;
+    height: 310px;
+}
+
+#newmovie-h1{
+    text-align: center;
+    margin-right: 300px;
+}
+
+#poster-div3{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    margin-left: -1900px;
+}
+
+#poster-div3 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#poster-div3 img:hover{
+    width: 220px;
+    height: 310px;
 }
