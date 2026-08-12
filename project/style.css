@@ -286,7 +286,7 @@ h1{
     flex-direction: row;
     gap: 40px;
     align-items: flex-start;
-    margin-left: -1900px;
+    margin-left: -210px;
 }
 
 #poster-div2 img{
@@ -312,7 +312,7 @@ h1{
     flex-direction: row;
     gap: 40px;
     align-items: flex-start;
-    margin-left: -1900px;
+    margin-left: -210px;
 }
 
 #poster-div3 img{
@@ -324,5 +324,403 @@ h1{
 
 #poster-div3 img:hover{
     width: 220px;
-    height: 310px;
+    height: 310px; 
+} 
+
+#topmovie-h1{
+    text-align: center;
+    margin-right: 300px;
+}
+
+
+#AD-1 img{
+    display: flex;
+    align-items: flex-start;
+    margin-left: -135px;
+}
+
+#AD-2 img{
+    display: flex;
+    align-items: flex-start;  
+    margin-left: -135px;
+}
+
+
+
+
+#location{
+    display: flex;
+    align-items: center;
+}
+
+#location h1{
+    margin-left: 260px;
+}
+
+#time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-left:190px;
+    gap: 10px;
+}
+
+
+#today{
+    background-color: black;
+}
+
+
+#time span{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+#ticket-1{
+    display: flex;
+    align-items: center;
+    border: 2px dashed red;
+    width: 600px;
+}
+
+#ticket-1 img{
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+}
+
+#ticket-1info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+#ticket-1info span{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ticket-1info button{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#ticket-1info button:hover{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+
+#ticket-2{
+    display: flex;
+    align-items: center;
+    border: 2px dashed red;
+    width: 600px;
+}
+
+
+#ticket-2 img{
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+}
+
+#ticket-2info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#ticket-2info span{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ticket-2info button{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#ticket-2info button:hover{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+
+
+#ticket-3{
+    display: flex;
+    align-items: center;
+    border: 2px dashed red;
+    width: 600px;
+}
+
+
+#ticket-3 img{
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+}
+
+#ticket-3info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#ticket-3info span{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 3px;
+}
+
+#ticket-3info button{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#ticket-3info button:hover{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#time-ticket{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-div{
+    display: flex;
+    justify-content: center;
+    width: 1540px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: -300px;
+}
+
+#footer-div img{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+ }
+ 
+ 
+ 
+ h3{
+    text-decoration: underline black;
+    color: white;
+    transition: 1s;
+    text-align: center;
+}
+
+
+#h3-1:hover{
+    font-size: 23px;
+}
+
+#footer-div img:hover{
+    height: 60px;
+}
+
+#part-1{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+}
+
+#part-1 p{
+    color: white;
+    margin-left:-550px;
+    margin-top: 10px;
+}
+
+
+#part-2 p{
+    color: white;
+    margin-left: -300px;
+    margin-top: 10px;
+}
+
+
+#contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 10px;
+}
+
+#contacts img{
+    width: 35px;
+    height: 35px;
+    transition: 1s;
+    margin-top: 50px;
+}
+
+
+#contacts img:hover{
+    height: 45px;
+    height: 45px;
+}
+
+
+
+
+@media(max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+    }
+
+    header {
+        width: 100%;
+        min-height: auto;
+    }
+
+    #nav-div {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+        min-height: auto;
+        padding: 15px;
+    }
+
+    #nav-div nav {
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav {
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    #search-bar {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #main-div {
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        padding: 20px;
+        background-size: cover;
+    }
+
+    #info-p {
+        max-width: 100%;
+    }
+
+    #poster-div, 
+    #poster-div2, 
+    #poster-div3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        gap: 15px;
+    }
+
+    #poster-div img, 
+    #poster-div2 img, 
+    #poster-div3 img {
+        width: 140px;
+        height: 210px;
+        margin-right: 0;
+    }
+
+    #AD-1 img, 
+    #AD-2 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    #movies h1, 
+    #newmovie-h1, 
+    #topmovie-h1, 
+    #location h1 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #location, 
+    #time {
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #ticket-1, 
+    #ticket-2, 
+    #ticket-3 {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #ticket-1info, 
+    #ticket-2info, 
+    #ticket-3info {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    #footer-div {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 30px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #part-1 p, 
+    #part-2 p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #contacts {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #contacts img {
+        margin-top: 20px;
+    }
 }
