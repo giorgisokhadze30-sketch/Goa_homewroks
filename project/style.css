@@ -11,6 +11,7 @@ body{
     background:url(./artistic-blurry-colorful-wallpaper-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -133,7 +134,7 @@ header{
 
 #icon{
     background: transparent;
-    width: 200px;
+    width: 170px;
     border-radius: 25px;
 }
 
@@ -213,13 +214,12 @@ main{
     background-color: rgba(255, 255, 255, 0.15);
     font-size: 13px;
     font-weight: bold;
-    margin-bottom: 175px;
+    margin-bottom: 70px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-color: #a0a0b0;
     color: white;
     border-radius: 30px;
     padding: 6px 14px;
-    margin-bottom:
 }
 
 h1{
