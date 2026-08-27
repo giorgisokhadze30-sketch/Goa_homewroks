@@ -11,13 +11,12 @@ nums = [1,2,3,4]
 print(list(map(double , nums)))
 
 
-#filter კი გამოიყენება გაფილტვრითვის
+# filter კი გამოიყენება გაფილტვრითვის
 
-# numbers = [1,2,3,4,5,6,7,8]
+numbers = [1,2,3,4,5,6,7,8]
 
-# evens = list(filter(lambda x: x % 2 == 0, numbers ))
-
-# print(evens)
+evens = list(filter(lambda x: x % 2 == 0, numbers ))
+print(evens)
 
 
 
