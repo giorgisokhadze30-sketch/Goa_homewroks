@@ -47,7 +47,7 @@ class Iphone:
         self.color = color
         
     def pay(self):
-        print(f'Succesfully paid {.price} dollars to buy {.model}')
+        print(f'Succesfully paid {self.price} dollars to buy {self.model}')
         
         
         
