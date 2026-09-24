@@ -26,7 +26,7 @@ for(let num = 90; num <=102; num += 2){
 // 5) დაწერეთ for loop-ი, რომელიც რიცხვებს 90-დან 50-მდე დაითვლის.
 
 for(let num2 = 90 ; num2 >= 50 ; num2--){
-    console.log(num2)
+    console.log(num2);
 }
 
 
@@ -44,7 +44,7 @@ for(let num3 = 45 ; num3 > 20 ; num3 -= 5){
 let name = "Giorgi"
 
 for(let y = 0 ;  y < name.length ; y++){
-    console.log("index: ${y} , symbol: ${name[y]}");
+    console.log(y , name[y]);
 }
 
 // 8) ახსენი, თუ რა მნიშვნელობა აქვს stopping condition-ის ადგილას length კუთვნილების გამოყენებას, for loop-ის სტრინგზე/მასივზე 
@@ -59,5 +59,7 @@ for(let y = 0 ;  y < name.length ; y++){
 let numbers = [10, 25, 42, 50, 99];
 
 for (let x = 0; x < numbers.length; x++) {
-    console.log("numbers: ${numbers[x]}");
+    console.log("Number:" + numbers[x]);
 }
+
+
