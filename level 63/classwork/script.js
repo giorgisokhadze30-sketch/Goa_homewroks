@@ -1,8 +1,8 @@
 // 1) დაწერეთ for loop-ი, რომელიც 10-დან 1-ის ჩათვლით დაითვლის რიცხვებს.
 
 
-for(let i = 0 ; i <=10 ; i++){
-    console.log(i)
+for(let i = 10 ; i >=1 ; i--){
+    console.log(i);
 }
 
 
@@ -10,9 +10,9 @@ for(let i = 0 ; i <=10 ; i++){
 //  (მასივში მინიმუმ 5 ელემენტი უნდა ინახებოდეს.)
 
 
-myFav = "Supernatural"
+let myFav = "Supernatural"
 
 
-for(let i = 0 ; i < myFav.length, i++){
-    console.log(myFav[i])
+for(let i = 0 ; i < myFav.length; i++){
+    console.log(myFav[i]);
 }
