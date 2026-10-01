@@ -59,7 +59,7 @@ for(let y = 0 ;  y < name.length ; y++){
 let numbers = [10, 25, 42, 50, 99];
 
 for (let x = 0; x < numbers.length; x++) {
-    console.log("Number:" + numbers[x]);
+    console.log(`Number:  ${numbers[x]}`);
 }
 
 
