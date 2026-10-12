@@ -17,3 +17,19 @@ for(i = 0; i < languageA.length ; i++ ){
 
     }
 }
+
+
+// 2) შექმენით fruits მასივი: ['apple', 'cherry', 'melon']
+// დაწერეთ while loop-ის პროგრამა, math.random-ის საშუალებით currentFruit-ში ყოველ ჯერზე რენდომული მნიშვნელობა ჩაიწერება, 
+// სანამ 'cherry' მნიშვნელობა არ ჩაჯდება currentFruit-ში, იქამდე გააგრძელეთ ძებნა.
+
+
+const fruits = ['apple', 'cherry', 'melon']
+
+let currentFruit = "";
+
+while(currentFruit !== "cherry"){
+    const index = Math.floor(Math.random() * fruits.length -1);
+    currentFruit = fruits[index];
+    console.log(`Current fruit: ${currentFruit}`);
+}
